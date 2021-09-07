@@ -3,13 +3,11 @@
 <script>
 function convert() {
 	var srcText = document.getElementById("source").value;
-	var json = {value:""};
-	json.value = srcText;
-	var dstText = JSON.stringify(json);
+	var dstText = JSON.stringify(srcText);
 	document.getElementById("dest").value = dstText;
 }
 </script>
-Converts a string to its json-value representation (escaping what is needed)<br><br>
+Converts a text to its json-value string representation (escaping what is needed)<br><br>
 SOURCE:<br>
 <textarea id="source" style="margin: 0px; width: 640px; height: 200px;">
 </textarea>
