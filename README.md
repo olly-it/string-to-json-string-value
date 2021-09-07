@@ -11,5 +11,5 @@ hi evrybody, this is a "quote" html!
 ```
 will be converted to:
 ```
-{"value":"<html>\n<body>\nhi evrybody, this is a \"quote\" html!\n</body>\n</html>"}
+"<html>\n<body>\nhi evrybody, this is a \"quote\" html!\n</body>\n</html>"
 ```
